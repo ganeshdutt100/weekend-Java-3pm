@@ -24,7 +24,7 @@ public class class7 {
 //        method 3 (Another class)
 
 
-        class8.AnotherClass();
+//        mainClass.AnotherClass();
 
     }
 //first method
