@@ -5,13 +5,14 @@ import Questions.nestedLoop;
 public class class11 {
     public static void main(String[] args) {
         class11 obj1 = new class11();
-        obj1.halfPyramid(4);
-        obj1.halfPyramidNumber(5);
-        obj1.halfPyramidChar();
-        obj1.halfPyramidInvert(5);
-        obj1.halfPyramidInvertNum(5);
-        obj1.HalfPyramidReverse(5);
-        obj1.fullPyramid(5);
+//        obj1.halfPyramid(4);
+//        obj1.halfPyramidNumber(5);
+//        obj1.halfPyramidChar();
+//        obj1.halfPyramidInvert(5);
+//        obj1.halfPyramidInvertNum(5);
+//        obj1.HalfPyramidReverse(5);
+//        obj1.fullPyramid(5);
+        obj1.fullPyramidNum(4);
 
 
 
@@ -104,6 +105,29 @@ public class class11 {
             for(int k = 1; k <= 2 * i - 1; k++) {
                 System.out.print("* ");
             }
+
+            System.out.println();
+        }
+    }
+
+    // full pyramid using number
+    public void fullPyramidNum(int rows) {
+
+        for(int i = 1; i <=rows; i++) {
+
+            for(int j = 1; j <= rows - i; j++) {
+                System.out.print("  ");
+            }
+
+            for(int k = i; k <= 2 * i - 1; k++) {
+                System.out.print( k + " ");
+
+            }
+            for(int k = 2 * i - 2; k >=i; k--) {
+                System.out.print( k + " ");
+
+            }
+
 
             System.out.println();
         }
