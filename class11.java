@@ -4,7 +4,7 @@ import Questions.nestedLoop;
 
 public class class11 {
     public static void main(String[] args) {
-        nestedLoop obj1 = new nestedLoop();
+        class11 obj1 = new class11();
         obj1.halfPyramid(4);
         obj1.halfPyramidNumber(5);
         obj1.halfPyramidChar();
@@ -12,6 +12,7 @@ public class class11 {
         obj1.halfPyramidInvertNum(5);
         obj1.HalfPyramidReverse(5);
         obj1.fullPyramid(5);
+
 
 
     }
@@ -107,6 +108,9 @@ public class class11 {
             System.out.println();
         }
     }
+
+
+
 
 
 
