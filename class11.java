@@ -12,7 +12,7 @@ public class class11 {
 //        obj1.halfPyramidInvertNum(5);
 //        obj1.HalfPyramidReverse(5);
 //        obj1.fullPyramid(5);
-        obj1.fullPyramidNum(4);
+        obj1.fullPyramidNum(6);
 
 
 
@@ -118,15 +118,13 @@ public class class11 {
             for(int j = 1; j <= rows - i; j++) {
                 System.out.print("  ");
             }
-
-            for(int k = i; k <= 2 * i - 1; k++) {
-                System.out.print( k + " ");
-
-            }
-            for(int k = 2 * i - 2; k >=i; k--) {
-                System.out.print( k + " ");
+       int num  = 1;
+            for(int k = 1; k <= i; k++) {
+                System.out.print( num + "  "  );
+                num = num*(i -k)/k;
 
             }
+
 
 
             System.out.println();
