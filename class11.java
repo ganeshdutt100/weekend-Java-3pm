@@ -12,7 +12,8 @@ public class class11 {
 //        obj1.halfPyramidInvertNum(5);
 //        obj1.HalfPyramidReverse(5);
 //        obj1.fullPyramid(5);
-        obj1.fullPyramidNum(6);
+//        obj1.fullPyramidNum(6);
+        obj1.hollowPyramid(5);
 
 
 
@@ -133,7 +134,49 @@ public class class11 {
 
 
 
+//              *
+//             * *
+//            *   *
+//           *     *
+//          *********
 
+    // full pyramid using number
+    public void hollowPyramid(int rows) {
+
+        for(int i = 1; i <=rows; i++) {
+
+            for(int j = 1; j <= rows - i; j++) {
+                System.out.print("  ");
+            }
+
+            for(int k = 1; k <= 2 *i-1; k++) {
+
+                if(k == 1 || i == rows || k == 2*i-1){
+                    System.out.print("* ");
+
+                }
+                else{
+                    System.out.print("  ");
+                }
+
+            }
+
+
+
+            System.out.println();
+        }
+    }
+//              *
+//             * *
+//            *   *
+//           *     *
+//          *       *
+//          *        *
+//          *        *
+//           *      *
+//            *    *
+//             *  *
+//               *
 
 
 
