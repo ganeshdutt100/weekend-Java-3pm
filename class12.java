@@ -29,7 +29,7 @@ public class class12 {
         int num [] = new int[9];
         num[1] = 12;
         num[0]= 11;
-        num[2]= 13;
+//        num[2]= 13;
         num[3]= 14;
         num[4]= 15;
 //        num[5]= 16;
