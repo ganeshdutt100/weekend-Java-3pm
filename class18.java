@@ -12,16 +12,24 @@ public class class18 {
 
         System.out.println();
 
+//        int copiedArray[] = new int[originalArray.length];
+//        for(int i = 0; i < originalArray.length; i++){
+//            copiedArray[i] = originalArray[i];
+//        }
+//        System.out.print(" Copied Array : ");
+//
+//        for(int i = 0; i < copiedArray.length; i++){
+//            System.out.print( copiedArray[i] + " ");
+//
+//        }
+
+
         int copiedArray[] = new int[originalArray.length];
-        for(int i = 0; i < originalArray.length; i++){
-            copiedArray[i] = originalArray[i];
-        }
-        System.out.print(" Copied Array : ");
+        System.arraycopy(originalArray,5,copiedArray,2,7);
 
-        for(int i = 0; i < copiedArray.length; i++){
-            System.out.print( copiedArray[i] + " ");
-
-        }
-
+        System.out.print("Copied Array : ");
+         for(int x  : copiedArray){
+             System.out.print(" " + x);
+         }
     }
 }
