@@ -5,6 +5,13 @@ import java.util.Arrays;
 
 public class class17 {
     public static void main(String[] args) {
+        System.out.println();
+//        if(){
+//            System.out.println("hello");
+//        }
+//        else{
+//            System.out.println("hii");
+//        }
 //        int a[] = {1, 2, 3, 44, 0};
 //        int  []d = Arrays.copyOf(a,8);
 //        int  []d = Arrays.copyOfRange(a,2,5);
